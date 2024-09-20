@@ -240,7 +240,7 @@ class Square {
     this.y = constrain(this.y, 0, height - this.size);
 
     // Debugging: Log the new position
-    console.log(`New position: (${this.x}, ${this.y})`);
+    //  console.log(`New position: (${this.x}, ${this.y})`);
   }
 
   display() {
@@ -312,7 +312,7 @@ class Blob {
   }
 
   collidesWith(other) {
-    console.log("collidesWithother", other);
+    // console.log("collidesWithother", other);
     let d = dist(this.x, this.y, other.x, other.y);
     return d < this.r + other.r;
   }
