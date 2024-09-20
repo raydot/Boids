@@ -1,2 +1,3 @@
 # Boids
-Boids YouTube tutorial done with p15.js
+
+Some experiments with Github Copilot and p15.js
